@@ -1,11 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 
+h1{
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 30px;
+    margin-right: 10px;
+    display: inline;
+}
+
+h3{
+    font-family: 'Roboto Mono', monospace;
+    font-size: x-small;
+    display: inline;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom, #c24a8b, #284fad);
+    padding-bottom: 40%;
+}
+main, header{
+    background-color: white;
+}
+
 header{
     padding: 0;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
     margin-bottom: 150px;
     border-bottom: 1px solid;
@@ -15,15 +40,42 @@ main{
     width: 200px;
     margin: 0 auto;
     text-align: center;
-    border: 0.5px rgba(0, 0, 0, 0.2) solid;
+    border: 0.1px rgba(0, 0, 0, 0.2) solid;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; 
 }
+
 
 form{
    padding-top: 10px; 
 }
 #rest-container{
     margin: 10px 0px;
+}
+
+input[type="text"]{
+    border-radius: 4px;
+    border: 0.1px rgb(147, 136, 136) solid;
+    padding: 7px;
+}
+
+input[type="button"]{
+    color: aliceblue;
+    background-color: #c24a8b;
+    width: 100%;
+    border: 0px;
+    border-radius: 5px;
+    height: 25px; 
+}
+
+input[type="checkbox"]{
+    float: left;
+    margin-top: 4px;
+    margin-right: 6px;
+}
+label{
+    float: left;
+    color: rgb(86, 80, 80);
 }
 
 #content-container{
@@ -35,6 +87,11 @@ form{
 }
 
 .form-element{
+    margin-bottom: 10px;
+}
+
+#rest-container p{
+    color:grey;
     margin-bottom: 10px;
 }
 
