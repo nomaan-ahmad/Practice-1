@@ -47,13 +47,14 @@ main{
 
 
 form{
-   padding-top: 10px; 
+   padding-top: 10px;
 }
 #rest-container{
     margin: 10px 0px;
 }
 
 input[type="text"]{
+    width: 90%;
     border-radius: 4px;
     border: 0.1px rgb(147, 136, 136) solid;
     padding: 7px;
