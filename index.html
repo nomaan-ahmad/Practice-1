@@ -7,63 +7,34 @@
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color:white;">
     <header>
-        <div id="header-heading-container">
-            <h1>BIRDWATCHING</h1>
-        </div>
-        <div id="header-image-container">
-            <img src="/images/bird_1.png" alt="cute bird">
-        </div>
+        <h1>TECHBOX</h1>
     </header>
-    <nav>
-        <div id="nav-list-container">
-            <ul id="nav-unorder-list">
-                <li>
-                    <a href="/">Home</a>
-                    <a href="/">GET Started</a>
-                    <a href="/">Photos</a>
-                    <a href="/">Gear</a>
-                    <a href="/">Forum</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <main id="main-content-container">
-        <Section id="body-main-section1">
-            <h2>WELCOME</h2>
-            <P>Welcome to our fake birdwatcing site. If this were 
-                a real site, it would be the ideal place to come 
-                to learn more about birdwatching, whether you are a
-                beginner looking to learn how to get into birding, or 
-                an expert wanting to share ideas, tips, and photos with 
-                other like-minded people.
-            </P>
-            <p>
-                So don't waste time! Get what you need, then turn off that 
-                computer and get out into the great outdoors!
-            </p>
-        </Section>
-        <section id="body-main-section2">
-            <h2>Favorite Photos</h2>
-            <div id="main-section-image-container">
-                <img src="images/bird_2.jpg" alt="bird 1">
-                <img src="/images/bird3.jpg" alt="bird 2">
-                <img src="/images/bird4.jpg" alt="bird 3">
-                <img src="images/bird_5.jpg" alt="bird 4">
+    <main>
+        <div id="content-container">
+            <h2>Sign in</h2>
+            <form action="">
+                <input type="text" class="form-element"><br>
+                <input type="text" class="form-element"><br>
+                <input type="checkbox" name="remember-me" id="remember-me" class="form-element">
+                <label for="remember-me">remember me</label><br>
+                <input type="button" value="sign in" class="form-element">
+            </form>
+            <hr>
+            <div id="rest-container">
+                <p>or sign in with</p>
+                <a href="#">
+                    <img src="/images/social-icon/facebook.png" alt="facebook logo" width="20" height="20">
+                </a>
+                <a href="#">
+                    <img src="/images/social-icon/google.png" alt="google logo" width="20" height="20">
+                </a>
+                <a href="#">
+                    <img src="/images/social-icon/twitter.png" alt="twitter logo" width="20" height="20">
+                </a>
             </div>
-        </section>
-    </main>
-    <footer>
-        <div id="footer-content-container">
-            <p>This fake website example is CC0 - any part of this code may be reused 
-                in any way you wish. Original example written by Chris mills, 2016.
-            </p>
-    
-            <p>
-                <a href="https://cdn-icons-png.flaticon.com/512/624/624529.png">Dove icon</a> by Lorc
-            </p>
         </div>
-    </footer>
+    </main>
 </body>
 </html>

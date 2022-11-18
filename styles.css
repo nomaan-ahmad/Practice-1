@@ -1,12 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
 
-body{
-    font-family: 'PT Mono', 
-    monospace;
+header{
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    border-bottom: 1px solid;
 }
-h1,h2{
-    font-family: 'BhuTuka Expanded One', 
-    cursive;
+
+main{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    border: 0.5px rgba(0, 0, 0, 0.2) solid;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
+
+form{
+   padding-top: 10px; 
+}
+#rest-container{
+    margin: 10px 0px;
+}
+
+#content-container{
+    margin: 10px;
+}
+
+#rest-container a{
+    text-decoration: none;
+}
+
+.form-element{
+    margin-bottom: 10px;
+}
+
 
